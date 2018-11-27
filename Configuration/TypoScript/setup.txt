@@ -19,6 +19,10 @@ plugin.tx_rssdisplay {
 				label = With no description
 				path = EXT:rss_display/Resources/Private/Templates/Feed/ShowWithoutDescription.html
 			}
+			rss_display_4 {
+				label = With Date but without Feed Title
+				path = EXT:rss_display/Resources/Private/Templates/Feed/ShowWithDateNoTitle.html
+			}
 		}
 	}
 	view {
